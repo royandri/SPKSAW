@@ -1,0 +1,43 @@
+.head {
+    background: -webkit-linear-gradient(right, green, #003b6d);
+    background: -moz-linear-gradient(right, green, #003b6d);
+    background: -o-linear-gradient(right, green, #003b6d);
+    background: linear-gradient(toright, green, #003b6d);
+    position: initial;
+    padding-top: 2em;
+    height: 15em;
+}
+.head-diagonal:before {
+    content: "";
+    background: inherit;
+    display: block;
+    height: 23em;
+    width: 100%;
+    position: absolute;
+    margin-top: -6em;
+    transform: skewY(-4deg);
+    box-shadow: 0 0 5px 4px darkgrey;
+}
+.head h1 {
+    color: antiquewhite;
+    font-weight: bold;
+}
+.head h1 small {
+    color: rgba(255, 255, 255, 0.5);
+}
+.melayang{
+  box-shadow: 0 0 5px gray;
+}
+.kartu{
+  padding: 1em;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 1em;
+}
+body{
+  background-color: #ddd;
+}
+.form-group{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

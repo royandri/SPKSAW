@@ -1,0 +1,28 @@
+body{
+  background-color: #222D32;
+}
+.utama{
+  margin-top: 10em;
+}
+.kiri{
+  background-color: #008749;
+}
+.kanan{
+  background-color: white;
+}
+.kanan h4{
+  text-align: left;
+  color: #44C7F4;
+}
+
+.formlogin{
+  margin-left: 30PX;
+  margin-right: 30PX;
+}
+.footer{
+  text-align: center;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+}

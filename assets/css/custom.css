@@ -1,0 +1,35 @@
+hr{
+  display: block;
+  height: 1px;
+  width: 50px;
+  border: 0;
+  border-top: 3px solid #205E32;
+  margin: 1em 0;
+  padding: 0;
+}
+table:hover #hr1{
+  width: 70px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.upper-section:hover #hr1{
+  width: 70px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.kecil{
+    width: 100px;
+}
+.sedang{
+    width: 234px;
+}
+.besar{
+    width: 265px;
+    height: 70px;
+}
+.logocetak{
+  width: 100px;
+}
+.struk{
+  border: 1px solid black;
+}
